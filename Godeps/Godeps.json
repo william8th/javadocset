@@ -1,0 +1,57 @@
+{
+	"ImportPath": "github.com/william8th/javadocset",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-stack/stack",
+			"Comment": "v1.5.3",
+			"Rev": "7a2f19628aabfe68f0766b59e74d6315f8347d22"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/log15",
+			"Comment": "v2.3-92-g39bacc2",
+			"Rev": "39bacc234bf1afd0b68573e95b45871f67ba2cd4"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/log15/term",
+			"Comment": "v2.3-92-g39bacc2",
+			"Rev": "39bacc234bf1afd0b68573e95b45871f67ba2cd4"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Comment": "v0.0.7-24-gded68f7",
+			"Rev": "ded68f7a9561c023e790de24279db7ebf473ea80"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.2",
+			"Rev": "fc9e8d8ef48496124e79ae0df75490096eccf6fe"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.2.0-80-gcf7286f",
+			"Rev": "cf7286f069c3ef596efcc87781a4653a2e7607bd"
+		},
+		{
+			"ImportPath": "github.com/yhat/scrape",
+			"Rev": "24b7890b0945459dbf91743e4d2ac5d75a51fee2"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "7dcfb8076726a3fdd9353b6b8a1f1b6be6811bd6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "7dcfb8076726a3fdd9353b6b8a1f1b6be6811bd6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "7dcfb8076726a3fdd9353b6b8a1f1b6be6811bd6"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "a55a76086885b80f79961eacb876ebd8caf3868d"
+		}
+	]
+}
