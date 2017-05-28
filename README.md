@@ -6,31 +6,20 @@ This is a port of Kapeli's javadocset tool in Golang. I ported this tool as an e
 # Build Instructions
 
 ## Prerequisites
-You need to have Go 1.8.3 and above to be able to compile this tool
+You need to have Go 1.8.3 and above installed to be able to use this tool
 
 ## Instructions
+It's as simple as:
 ```
-// Clone this repo
-git clone https://github.com/william8th/javadocset
-
-// Change into the repo's directory
-cd javadocset
-
-// Build the tool
-go build
-
-// Run the javadocset tool
-./javadocset
-
+go get github.com/william8th/javadocset
 ```
 
 ## Usage
 ```
-./javadocset <docset name> <Javadoc folder>
-
-// where:
-// 	<docset name> = the name of the docset that will appear on Dash/Zeal
-// 	<Javadoc folder> = the folder containing the generated HTML Java doc 
+javadocset <docset name> <Javadoc folder>
+# where:
+#	<docset name> = the name of the docset that will appear on Dash/Zeal
+#	<Javadoc folder> = the folder containing the generated HTML Java doc 
 ```
 
 # Credits
