@@ -228,7 +228,7 @@ func writeInfoPlist(docsetName, docsetIndexFile, contentsDirectoryPath string) {
 
 func initDB(resourcesDirectoryPath string, dbFunc func(*sql.DB)) {
 
-	dbPath := filepath.Clean(resourcesDirectoryPath + "/docset.dsidx")
+	dbPath := filepath.Clean(resourcesDirectoryPath + "/docSet.dsidx")
 
 	// We don't care, we just want to remove the index
 	os.Remove(dbPath)
